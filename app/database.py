@@ -26,7 +26,7 @@ mecanismo_banco = create_engine(DATABASE_URL, pool_pre_ping=True)
 criar_sessao = sessionmaker(
     bind=mecanismo_banco,
     autoflush=False,
-    autocommit=false,
+    autocommit=False,
 )
 
 
